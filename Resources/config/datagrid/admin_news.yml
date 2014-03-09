@@ -1,0 +1,11 @@
+columns:
+  name:
+    type: text
+    options:
+      label: admin.news.list.title.label
+      editable: true
+  date:
+    type: datetime
+    options:
+      label: admin.news.list.date.label
+      editable: true

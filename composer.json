@@ -1,0 +1,61 @@
+{
+    "name": "fsi/admin-news-bundle",
+    "type": "symfony-bundle",
+    "description": "FSiAdminBundle configuration for fsi/news-bundle",
+    "keywords": ["news", "symfony2", "bundle", "fsi", "admin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Norbert Orzechowicz",
+            "email": "norbert@fsi.pl"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/norzechowicz/news-bundle.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.3",
+        "symfony/twig-bundle": "~2.3",
+        "fsi/admin-bundle" : "1.0.*",
+        "fsi/form-extensions-bundle": "1.0.*",
+        "fsi/news-bundle": "dev-dev"
+    },
+    "require-dev": {
+        "doctrine/doctrine-bundle": "dev-master",
+        "doctrine/doctrine-cache-bundle": "dev-master",
+
+
+        "symfony/class-loader": "~2.3",
+        "symfony/process": "~2.3",
+
+
+        "doctrine/orm": "~2.3",
+        "fzaninotto/faker": "v1.3.0",
+        "phpspec/phpspec": "2.0.*@dev",
+        "behat/behat": "2.4.*@stable",
+        "behat/symfony2-extension": "*@stable",
+        "behat/mink-extension": "*",
+        "behat/mink-browserkit-driver": "*",
+        "behat/mink-selenium2-driver": "*",
+        "sensiolabs/behat-page-object-extension": "1.0.*@dev",
+        "bossa/phpspec2-expect": "dev-master"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "FSi\\Bundle\\AdminNewsBundle\\": ""
+        }
+    },
+    "target-dir" : "FSi/Bundle/AdminNewsBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
