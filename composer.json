@@ -10,29 +10,17 @@
             "email": "norbert@fsi.pl"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/norzechowicz/news-bundle.git"
-        }
-    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": "~2.3",
         "symfony/twig-bundle": "~2.3",
         "fsi/admin-bundle" : "1.0.*",
         "fsi/form-extensions-bundle": "1.0.*",
-        "fsi/news-bundle": "dev-dev"
+        "fsi/news-bundle": "dev-master"
     },
     "require-dev": {
         "doctrine/doctrine-bundle": "dev-master",
         "doctrine/doctrine-cache-bundle": "dev-master",
-
-
-        "symfony/class-loader": "~2.3",
-        "symfony/process": "~2.3",
-
-
         "doctrine/orm": "~2.3",
         "fzaninotto/faker": "v1.3.0",
         "phpspec/phpspec": "2.0.*@dev",
