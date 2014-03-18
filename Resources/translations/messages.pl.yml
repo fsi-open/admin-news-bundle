@@ -1,0 +1,17 @@
+admin:
+  news:
+    menu: Aktualności
+    list:
+      title:
+        label: Tytuł
+      date:
+        label: Data
+    form:
+      title:
+        label: Tytuł
+      date:
+        label: Data
+      introduction:
+        label: Wstęp
+      content:
+        label: Treść

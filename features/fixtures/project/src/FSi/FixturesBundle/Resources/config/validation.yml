@@ -1,0 +1,10 @@
+FSi\FixturesBundle\Entity\News:
+  properties:
+    title:
+      - NotBlank: ~
+    date:
+      - DateTime: ~
+    introduction:
+      - NotBlank: ~
+    content:
+      - NotBlank: ~
