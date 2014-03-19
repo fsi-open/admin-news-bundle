@@ -1,5 +1,5 @@
 columns:
-  name:
+  title:
     type: text
     options:
       label: admin.news.list.title.label
@@ -9,3 +9,13 @@ columns:
     options:
       label: admin.news.list.date.label
       editable: true
+  actions:
+    type: action
+    options:
+      label: admin.news.list.actions.label
+      field_mapping: ['id']
+      actions:
+        edit:
+          route_name: fsi_admin_crud_edit
+          additional_parameters: {'element' : 'news'}
+          parameters_field_mapping: {'id' : 'id'}

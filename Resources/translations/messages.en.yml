@@ -6,6 +6,8 @@ admin:
         label: Title
       date:
         label: Date
+      actions:
+        label: Actions
     form:
       title:
         label: Title
@@ -15,3 +17,4 @@ admin:
         label: Introduction
       content:
         label: Content
+

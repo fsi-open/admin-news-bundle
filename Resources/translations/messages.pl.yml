@@ -6,6 +6,8 @@ admin:
         label: Tytuł
       date:
         label: Data
+      actions:
+        label: Akcje
     form:
       title:
         label: Tytuł
