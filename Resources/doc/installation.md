@@ -8,8 +8,7 @@ Add to composer.json
 "require": {
     "fsi/news-bundle": "1.0.*@dev",
     "fsi/admin-news-bundle": "1.0.*@dev"
-    "doctrine/doctrine-bundle": "dev-master",
-    "doctrine/doctrine-cache-bundle": "dev-master"
+    "doctrine/doctrine-bundle": "dev-master"
 }
 ```
 
