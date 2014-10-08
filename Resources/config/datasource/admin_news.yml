@@ -1,7 +1,7 @@
 fields:
   date:
     type: datetime
-    comparison: lte
+    comparison: eq
     options:
       default_sort: desc
       sortable: false
