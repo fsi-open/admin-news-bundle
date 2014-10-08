@@ -1,0 +1,8 @@
+fields:
+  date:
+    type: datetime
+    comparison: lte
+    options:
+      default_sort: desc
+      sortable: false
+      form_filter: false
