@@ -1,6 +1,6 @@
 fields:
   date:
-    type: datetime
+    type: date
     comparison: eq
     options:
       default_sort: desc

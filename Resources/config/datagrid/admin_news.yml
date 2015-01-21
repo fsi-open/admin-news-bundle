@@ -9,6 +9,7 @@ columns:
     options:
       label: admin.news.list.date.label
       editable: true
+      input_type: datetime
   actions:
     type: action
     options:
