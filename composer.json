@@ -14,22 +14,24 @@
         "php": ">=5.3.3",
         "symfony/framework-bundle": "~2.3",
         "symfony/twig-bundle": "~2.3",
-        "fsi/admin-bundle" : "1.0.*",
         "egeloen/ckeditor-bundle": "~2.0",
+        "fsi/admin-bundle" : "1.0.*",
         "fsi/news-bundle": "dev-master"
     },
     "require-dev": {
         "doctrine/doctrine-bundle": "dev-master",
         "doctrine/orm": "~2.3",
+        "symfony/validator": "~2.3",
         "fzaninotto/faker": "v1.3.0",
-        "phpspec/phpspec": "2.0.*@dev",
-        "behat/behat": "2.4.*@stable",
-        "behat/symfony2-extension": "*@stable",
+        "phpspec/phpspec": "~2.0",
+        "behat/behat": "~2.5.0",
+        "behat/mink": "1.5.*",
         "behat/mink-extension": "*",
-        "behat/mink-browserkit-driver": "*",
-        "behat/mink-selenium2-driver": "*",
-        "sensiolabs/behat-page-object-extension": "1.0.*@dev",
-        "bossa/phpspec2-expect": "dev-master"
+        "behat/mink-browserkit-driver": "1.1.*",
+        "behat/mink-selenium2-driver": "1.1.*",
+        "behat/symfony2-extension": "*",
+        "sensiolabs/behat-page-object-extension": "1.0.4",
+        "bossa/phpspec2-expect": "*@dev"
     },
     "config": {
         "bin-dir": "bin"
