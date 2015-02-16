@@ -23,7 +23,7 @@ class AppKernel extends Kernel
             new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
             new FSi\Bundle\NewsBundle\FSiNewsBundle(),
 
-            new FSi\Bundle\FormExtensionsBundle\FSiFormExtensionsBundle(),
+            new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
             new FSi\Bundle\AdminNewsBundle\FSiAdminNewsBundle(),
             new FSi\FixturesBundle\FSiFixturesBundle(),
         );

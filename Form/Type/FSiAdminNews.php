@@ -59,11 +59,11 @@ class FSiAdminNews extends AbstractType
             'label' => 'admin.news.form.date.label',
         ));
 
-        $builder->add('introduction', 'fsi_ckeditor', array(
+        $builder->add('introduction', 'ckeditor', array(
             'label' => 'admin.news.form.introduction.label'
         ));
 
-        $builder->add('content', 'fsi_ckeditor', array(
+        $builder->add('content', 'ckeditor', array(
             'label' => 'admin.news.form.content.label'
         ));
     }
