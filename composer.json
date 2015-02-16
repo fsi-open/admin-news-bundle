@@ -15,7 +15,7 @@
         "symfony/framework-bundle": "~2.3",
         "symfony/twig-bundle": "~2.3",
         "fsi/admin-bundle" : "1.0.*",
-        "fsi/form-extensions-bundle": "1.0.*",
+        "egeloen/ckeditor-bundle": "~2.0",
         "fsi/news-bundle": "dev-master"
     },
     "require-dev": {

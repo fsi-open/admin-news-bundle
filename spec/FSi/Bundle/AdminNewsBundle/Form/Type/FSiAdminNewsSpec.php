@@ -3,7 +3,6 @@
 namespace spec\FSi\Bundle\AdminNewsBundle\Form\Type;
 
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 use Symfony\Component\Form\FormBuilder;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -34,11 +33,11 @@ class FSiAdminNewsSpec extends ObjectBehavior
             'label' => 'admin.news.form.date.label',
         ))->shouldBeCalled();
 
-        $builder->add('introduction', 'fsi_ckeditor', array(
+        $builder->add('introduction', 'ckeditor', array(
             'label' => 'admin.news.form.introduction.label'
         ))->shouldBeCalled();
 
-        $builder->add('content', 'fsi_ckeditor', array(
+        $builder->add('content', 'ckeditor', array(
             'label' => 'admin.news.form.content.label'
         ))->shouldBeCalled();
 
