@@ -1,14 +1,10 @@
-# Installation in 3 simple steps
-
-## 1. Download News Bundle and Admin News Bundle
+## 1. Update Composer dependencies
 
 Add to composer.json
 
 ```
 "require": {
-    "fsi/news-bundle": "1.0.*@dev",
-    "fsi/admin-news-bundle": "1.0.*@dev"
-    "doctrine/doctrine-bundle": "dev-master"
+    "fsi/admin-news-bundle": "1.1.*@dev"
 }
 ```
 
@@ -21,17 +17,11 @@ Add to composer.json
 public function registerBundles()
 {
     $bundles = array(
-        /* FSiAdminBundle */
-        new Knp\Bundle\MenuBundle\KnpMenuBundle(),
-        new FSi\Bundle\DataSourceBundle\DataSourceBundle(),
-        new FSi\Bundle\DataGridBundle\DataGridBundle(),
-        new FSi\Bundle\AdminBundle\FSiAdminBundle(),
-
         /* FSiNewsBundle */
         new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
-        new FSi\Bundle\NewsBundle\FSiNewsBundle(),
+        new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
 
-        new FSi\Bundle\FormExtensionsBundle\FSiFormExtensionsBundle(),
+        new FSi\Bundle\NewsBundle\FSiNewsBundle(),
         new FSi\Bundle\AdminNewsBundle\FSiAdminNewsBundle(),
     );
 }
@@ -40,3 +30,15 @@ public function registerBundles()
 ## 3. Install FSiNewsBundle
 
 [FSiNewsBundle - Installation](https://github.com/fsi-open/news-bundle/blob/master/Resources/doc/installation.md)
+
+## 4. Add the news element to admin_menu.yml
+
+Since the bundle now uses FSiAdminBundle 1.1, you need to add it to the menu configuration
+file (```app\config\admin_menu.yml```):
+
+```
+    menu:
+        - { id: news, name: admin.news.menu }
+```
+
+Where ```id``` is the id of the admin element, and ```name``` is the translation key.
