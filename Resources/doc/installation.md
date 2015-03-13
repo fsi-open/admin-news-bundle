@@ -18,8 +18,8 @@ public function registerBundles()
 {
     $bundles = array(
         /* FSiNewsBundle */
-            new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
-            new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
+        new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
+        new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
 
         new FSi\Bundle\NewsBundle\FSiNewsBundle(),
         new FSi\Bundle\AdminNewsBundle\FSiAdminNewsBundle(),
