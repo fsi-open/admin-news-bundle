@@ -23,3 +23,5 @@ fsi_news:
     db_driver: orm
     news_class: FSi\FixturesBundle\Entity\News
 
+parameters:
+    locale: en
